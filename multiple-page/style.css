@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+body {
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Header */
+.header {
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #000;
+}
+
+.header a {
+  text-decoration: none;
+  color: #000;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  list-style-type: none;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-item a:hover {
+  color: #ffd700;
+}
+
+.hero {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 64px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.hero-desc {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.project-experience {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  align-items: start;
+  width: 100%;
+  height: 70vh;
+  margin: 50px 0;
+}
+
+.projects {
+  flex: 1;
+}
+
+.projects .title,
+.experience .title,
+.education .title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.projects .item {
+  width: 15vw;
+  padding: 10px 4px;
+  border: 1px solid #000;
+  margin: 5px 0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.experience {
+  flex: 1;
+}
+
+.experience-item {
+  height: 20vh;
+  border: 1px solid #000;
+  margin: 5px 0;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.experience-item .title {
+  font-size: 18px;
+  font-weight: 500;
+}
+.experience-item .desc {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.experience-item .link {
+  text-decoration: none;
+  border: 1px solid #000;
+  padding: 8px 10px;
+  border-radius: 5px;
+  color: #000;
+}
+
+.experience-item .link:hover {
+  background: #000;
+  opacity: 0.4;
+  color: #fff;
+}
+
+.education {
+  flex: 1;
+}
+
+.education .desc-container {
+  margin: 10px 0;
+}
+
+.education .courses {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.education p {
+  margin: 10px 0;
+}
+
+.review {
+  width: 100%;
+  height: 40vh;
+}
+
+.review .title {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.review-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-item {
+  flex: 1;
+  border: 1px solid #000;
+  margin: 4px 10px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.review-item .desc {
+  margin: 4px 0;
+}
+
+.review-item .author {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+.review-item .designation {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+.footer {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #000;
+}
+
+.footer .text {
+  font-size: 24px;
+}
