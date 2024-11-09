@@ -13,61 +13,72 @@
     />
     <meta name="author" content="Deviprasad Rai P" />
     <title>Deviprasad Rai P | Projects</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
-      <a href="index.html">Deviprasad Rai P</a>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="articles.html">Articles</a></li>
-        <li><a href="contact.html">Contact</a></li>
+    <header class="header">
+      <a class="logo" href="index.html">Deviprasad Rai P</a>
+      <ul class="nav">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item active"><a href="projects.html">Projects</a></li>
+        <li class="nav-item"><a href="articles.html">Articles</a></li>
+        <li class="nav-item"><a href="contact.html">Contact</a></li>
       </ul>
     </header>
-    <main>
-      <h2>Projects</h2>
-      <div>
-        <h4>E-Commerce Website</h4>
-        <p>
-          Developed a full-featured e-commerce website with secure user
-          authentication, product catalog, and integrated payment gateway. The
-          website offers product filtering, reviews, and a seamless shopping
-          experience.
-        </p>
-        <h5>
-          Technologies Used: HTML, CSS, JavaScript, React, Node.js, MongoDB
-        </h5>
-      </div>
-      <div>
-        <h4>Social Media Dashboard</h4>
-        <p>
-          Built a social media analytics dashboard for tracking engagement
-          metrics and managing content across multiple platforms. Users can view
-          insights and track follower growth, reach, and engagement rates.
-        </p>
-        <h5>Python, Django, React, PostgreSQL, Chart.js</h5>
-      </div>
-      <div>
-        <h4>Real-Time Chat Application</h4>
-        <p>
-          Created a real-time messaging platform supporting one-on-one and group
-          chats with instant notifications and read receipts. Implemented
-          end-to-end encryption for secure communication.
-        </p>
-        <h5>Node.js, Express, WebSocket, MongoDB, JWT, React Native</h5>
-      </div>
-      <div>
-        <h4>Portfolio Website</h4>
-        <p>
-          Designed and developed a responsive portfolio website to showcase
-          personal projects and achievements. The site features project
-          galleries, a contact form, and a dynamic resume section.
-        </p>
-        <h5>HTML, CSS, JavaScript, Bootstrap, GSAP</h5>
+    <main class="container">
+      <h2 class="page-title">Projects</h2>
+      <div class="project-outer-container">
+        <div class="project-card">
+          <h4 class="title">E-Commerce Website</h4>
+          <p class="desc">
+            Developed a full-featured e-commerce website with secure user
+            authentication, product catalog, and integrated payment gateway. The
+            website offers product filtering, reviews, and a seamless shopping
+            experience.
+          </p>
+          <h5 class="tech">
+            Technologies Used: HTML, CSS, JavaScript, React, Node.js, MongoDB
+          </h5>
+        </div>
+        <div class="project-card">
+          <h4 class="title">Social Media Dashboard</h4>
+          <p class="desc">
+            Built a social media analytics dashboard for tracking engagement
+            metrics and managing content across multiple platforms. Users can
+            view insights and track follower growth, reach, and engagement
+            rates.
+          </p>
+          <h5 class="tech">
+            Technologies Used:Python, Django, React, PostgreSQL, Chart.js
+          </h5>
+        </div>
+        <div class="project-card">
+          <h4 class="title">Real-Time Chat Application</h4>
+          <p class="desc">
+            Created a real-time messaging platform supporting one-on-one and
+            group chats with instant notifications and read receipts.
+            Implemented end-to-end encryption for secure communication.
+          </p>
+          <h5 class="tech">
+            Technologies Used: Node.js, Express, WebSocket, MongoDB, JWT, React
+            Native
+          </h5>
+        </div>
+        <div class="project-card">
+          <h4 class="title">Portfolio Website</h4>
+          <p class="desc">
+            Designed and developed a responsive portfolio website to showcase
+            personal projects and achievements. The site features project
+            galleries, a contact form, and a dynamic resume section.
+          </p>
+          <h5 class="tech">
+            Technologies Used: HTML, CSS, JavaScript, Bootstrap, GSAP
+          </h5>
+        </div>
       </div>
     </main>
-    <footer>
-      <h4>&copy; all rights reserved 2025</h4>
+    <footer class="footer">
+      <h4 class="text">&copy; all rights reserved 2024</h4>
     </footer>
   </body>
 </html>

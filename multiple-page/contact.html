@@ -14,46 +14,55 @@
     <meta name="author" content="Deviprasad Rai P" />
     <title>Deviprasad Rai P | Contact</title>
     <link rel="canonical" href="https://yourwebsite.com/contact.html" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
-      <a href="index.html">Deviprasad Rai P</a>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="articles.html">Articles</a></li>
-        <li><a href="contact.html">Contact</a></li>
+    <header class="header">
+      <a class="logo" href="index.html">Deviprasad Rai P</a>
+      <ul class="nav">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="projects.html">Projects</a></li>
+        <li class="nav-item"><a href="articles.html">Articles</a></li>
+        <li class="nav-item active"><a href="contact.html">Contact</a></li>
       </ul>
     </header>
     <main>
-      <h2>Contact Us</h2>
-      <section>
-        <div>
+      <h2 class="page-title container">Contact Us</h2>
+      <section class="contact-section">
+        <div class="contact-form">
           <form action="">
-            <div>
+            <div class="input-group">
               <label for="name">Name</label>
-              <input type="text" name="name" id="name" />
+              <input class="input" type="text" name="name" id="name" />
             </div>
-            <div>
+            <div class="input-group">
               <label for="email">Email</label>
-              <input type="email" name="email" id="email" />
+              <input class="input" type="email" name="email" id="email" />
             </div>
-            <div>
+            <div class="input-group message">
               <label for="message">Message</label>
-              <textarea name="message" id="message"></textarea>
+              <textarea
+                class="input"
+                rows="10"
+                name="message"
+                id="message"
+              ></textarea>
             </div>
+            <input type="submit" value="Submit" class="btn" />
           </form>
         </div>
         <div>
           <img
             src="https://img.freepik.com/free-vector/street-map-desing-with-catering-sector-pins_23-2147618798.jpg?t=st=1730995243~exp=1730998843~hmac=d579a517d6c982a84e8827aacd3851775fe87f121a4ebf953f700ba77d922485&w=740"
             alt="/"
+            height="480"
+            width="700"
           />
         </div>
       </section>
     </main>
-    <footer>
-      <h4>&copy; all rights reserved 2025</h4>
+    <footer class="footer">
+      <h4 class="text">&copy; all rights reserved 2024</h4>
     </footer>
   </body>
 </html>
