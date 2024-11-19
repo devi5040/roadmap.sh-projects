@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-styling: border-box;
+}
+
+.flex-box {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 4px;
+  height: 50vh;
+  background-color: #000;
+}
+
+.points-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50vh;
+}
+
+.point {
+  padding-left: 20px;
+}
+
+.version-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.version-title::before {
+  content: ".";
+  font-size: 100px;
+  margin-left: -35px;
+}
+
+.version-description {
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: -5px;
+}
